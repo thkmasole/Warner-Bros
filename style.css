@@ -1,0 +1,275 @@
+   
+        /*Navigation*/
+        nav {
+            background-color: #383434;
+            overflow: hidden;
+            display: block;
+            font: 300;
+            font-size: larger;
+            font-style: italic;
+        }
+    
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex; 
+        }
+
+        nav ul li {
+            flex-grow: 1; }
+
+        nav ul li a {
+            display: block;
+            color: rgb(255, 254, 254);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px; 
+            font-weight: bold; 
+        }
+
+        nav ul li a:hover {
+            background-color: #e70707;
+        }
+        
+    body {
+        background-color: rgb(247, 245, 245);
+      }
+      
+        
+        
+  
+       .top img {
+            position: relative;
+            width: 100%;
+            height: 550px;
+            
+          }
+          .top h1 {
+            position: absolute;
+            top: 60px; /* Adjust the distance from the top */
+            left: 20px; /* Adjust the distance from the left */
+            color: rgb(11, 8, 8);
+            font-size: 24px;
+            border: 1px solid rgb(240, 228, 228); /* Add a white border */
+            padding: 10px; /* Add padding inside the border */
+            background-color: rgb(212, 200, 200); /* Fill the inside of the border with white */
+        
+        }
+        .image-gallery {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gallery-container {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        
+        
+        button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(238, 6, 6, 0.5);
+            border: none;
+            color: #33e60b;
+            font-size: 24px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        .prev {
+            left: 0;
+        }
+        
+        .next {
+            right: 0;
+        }
+
+        .image-gallery {
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: left; 
+            gap: 40px; 
+            color: #fff;
+            
+           }
+        
+           .image-gallery figure {
+           display: inline-block; 
+           text-align: center; 
+           margin: 10px; 
+           width: calc(10% - 20px);
+           }
+           .image-gallery figure img{
+              height: 250px;
+           }
+        
+           .image-gallery figcaption {
+           font-size: 14px; 
+           margin-top: 10px;
+           padding: 0 70px; 
+           }
+           .details {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .details h3 {
+            margin: 0;
+            color: rgb(1, 26, 48);
+        }
+
+		
+		
+
+		
+		
+		
+		
+        
+    
+        figure {
+            position: relative;
+            margin: 100px;
+            flex: 0 0 15%; 
+        }
+		footer {
+			background-color: rgb(1, 56, 60);
+			color: rgb(215, 149, 5);
+			padding: 0px;
+			display: flex;
+			justify-content: space-between;
+            
+		  }
+	  
+		  footer img {
+			width: 70px;
+			height: auto;
+			margin-right: 0rem;
+			
+		  }
+	  
+		  footer img:hover {
+			opacity: 0;
+			background: rgb(2, 118, 213);
+		  }
+          
+  
+          .video-container {
+            position: relative;
+            width: 100%;
+            margin: auto;
+            height: 550px; 
+        }
+        
+        video {
+            width: 100%;
+            height: 100%; 
+            display: block;
+            object-fit: cover; 
+            position: relative; 
+            z-index: 2; 
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 10px; 
+            left: 550px; 
+            background-color: rgb(222, 210, 210);
+            padding: 10px;
+            box-sizing: border-box;
+            z-index: 3; 
+        }
+        
+        .overlay h2 {
+            color: rgb(8, 8, 8);
+            margin: 0;
+            text-align: center;
+        }
+       
+      
+
+       
+        .video-slide {
+            display: none;
+        }
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+        
+
+       
+        .video-slide {
+            display: none;
+        }
+
+        
+        .video-slide video {
+            width: 100%;
+            height: 550px;
+        }
+        form {
+            background-color: #08d91d;
+           padding: 20px;
+           border-radius: 10px;
+           box-shadow: 0px 0px 10px 0px rgba(206, 2, 49, 0.1);
+           max-width: 600px;
+           margin: 0 auto;
+         }
+        
+         h2 {
+           text-align: center;
+           color: rgb(17, 15, 15);
+         }
+        
+         label {
+           font-size: 16px;
+           font-weight: bold;
+           margin-bottom: 5px;
+          color: #171010;
+         }
+        
+         input[type="text"],
+         input[type="email"],
+         select,
+         textarea {
+           border-radius: 3px;
+            border: 1px solid #0d0b0b;
+           padding: 10px;
+           font-size: 16px;
+           width: 100%;
+           margin-bottom: 10px;
+           box-sizing: border-box;
+         }
+        
+         input[type="submit"] {
+          background-color: #81c612;
+          color: rgb(16, 13, 13);
+          border: none;
+          padding: 10px 20px;
+          border-radius: 3px;
+          font-size: 16px;
+          cursor: pointer;
+         }
+        
+         input[type="submit"]:hover {
+          background-color: #c8d80d;
+         }
+        
+         
+        
+         
+         
+         h1 {
+            color: rgb(11, 8, 8);
+        }
+        
+        
